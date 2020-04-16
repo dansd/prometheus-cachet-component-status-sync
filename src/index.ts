@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv"
-const res = dotenv.config()
+dotenv.config()
 
 import express from "express"
 import { CachetConnector } from "./cachetConnector"
